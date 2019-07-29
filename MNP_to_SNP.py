@@ -8,6 +8,7 @@ import datetime, subprocess, gzip
 # It also stores the deleted variants in a "Deleted_MNPs" file for reference.
 
 
+## Command line arguments:
 VCFfile_input = sys.argv [ 1 ]
 VCFfile_output = sys.argv [ 2 ]
 Deleted_MNPs = sys.argv [ 3 ]
